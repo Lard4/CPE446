@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/krdixson/CLionProjects/CPE446Lab2/hamming.c
+hamming.h
+/Users/krdixson/CLionProjects/CPE446Lab2/hamming.h
+
+/Users/krdixson/CLionProjects/CPE446Lab2/hamming.h
+main.h
+/Users/krdixson/CLionProjects/CPE446Lab2/main.h
+matrix.h
+/Users/krdixson/CLionProjects/CPE446Lab2/matrix.h
+
+/Users/krdixson/CLionProjects/CPE446Lab2/main.h
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+parity.h
+/Users/krdixson/CLionProjects/CPE446Lab2/parity.h
+hamming.h
+/Users/krdixson/CLionProjects/CPE446Lab2/hamming.h
+matrix.h
+/Users/krdixson/CLionProjects/CPE446Lab2/matrix.h
+
+/Users/krdixson/CLionProjects/CPE446Lab2/matrix.h
+stdlib.h
+-
+stdio.h
+-
+
+/Users/krdixson/CLionProjects/CPE446Lab2/parity.h
+main.h
+/Users/krdixson/CLionProjects/CPE446Lab2/main.h
+util.h
+/Users/krdixson/CLionProjects/CPE446Lab2/util.h
+
+/Users/krdixson/CLionProjects/CPE446Lab2/util.h
+
