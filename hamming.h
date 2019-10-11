@@ -12,5 +12,6 @@ int encodeHamming(unsigned short data);
 int decodeHamming(unsigned short data);
 unsigned int isMalformed(int data);
 unsigned int correctMalformed(unsigned int data);
+int safeDecodeHamming(unsigned short data);
 
 #endif //CPE446LAB2_HAMMING_H

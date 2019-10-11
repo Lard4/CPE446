@@ -14,7 +14,7 @@ int* getSyndrome(int* A);
 int** getHammingArray(unsigned short data);
 void toBinary(unsigned int data, int width, int* dataArray);
 int toDecimal(int width, int* num);
-
+int decodeHammingUnsafe(unsigned short data);
 
 unsigned int correctMalformed(unsigned int data) {
    unsigned int wrongBitMask = (unsigned int) pow(2, G_ROWS - isMalformed(data));
@@ -62,6 +62,21 @@ int** getHammingArray(unsigned short data) {
 int encodeHamming(unsigned short data) {
    int** hamming = getHammingArray(data);
    return toDecimal(G_ROWS, transposeToHorizontal(hamming, G_ROWS));
+}
+
+int decodeHammingUnsafe(unsigned short data) {
+   unsigned short bigVal = data & 23u;
+   unsigned short msb = 8u & (bigVal >> 1u);
+
+   return  (bigVal | msb) & 15u;
+}
+
+int safeDecodeHamming(unsigned short data) {
+   return decodeHammingUnsafe(
+         isMalformed(data) ?
+         correctMalformed(data) :
+         data
+   );
 }
 
 int toDecimal(int width, int* num) {

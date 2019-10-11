@@ -38,6 +38,8 @@ int main() {
 
    printf("55 corrected should be 51: %d\n\n", correctMalformed(55));
 
+   printf("51 decoded should be 11: %d\n", safeDecodeHamming(51u));
+   printf("55 decoded should be corrected then 11: %d\n\n", safeDecodeHamming(55u));
    return 0;
 }
 
