@@ -11,7 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4475fa6-797f-44cb-805d-e2c2297fb18a" name="Default Changelist" comment="" />
+    <list default="true" id="d4475fa6-797f-44cb-805d-e2c2297fb18a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPE446Lab2.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CPE446Lab2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hamming.c" beforeDir="false" afterPath="$PROJECT_DIR$/hamming.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrix.c" beforeDir="false" afterPath="$PROJECT_DIR$/matrix.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/matrix.h" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,26 +35,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrix.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="203">
+              <caret line="373" selection-start-line="373" selection-end-line="373" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/matrix.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matrix.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="e#106#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hamming.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="121" column="29" lean-forward="true" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+            <state relative-caret-position="324">
+              <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -60,7 +79,18 @@
       <find>generate(</find>
       <find>generate</find>
       <find>getSyndrome</find>
+      <find>B</find>
+      <find>443987862</find>
+      <find>Na</find>
+      <find>R</find>
+      <find>getCol</find>
+      <find>res</find>
+      <find>addChecksums</find>
+      <find>addCheck</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -72,9 +102,10 @@
         <option value="$PROJECT_DIR$/util.h" />
         <option value="$PROJECT_DIR$/main.h" />
         <option value="$PROJECT_DIR$/hamming.h" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
         <option value="$PROJECT_DIR$/matrix.h" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/matrix.c" />
+        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/hamming.c" />
       </list>
     </option>
@@ -84,6 +115,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -104,10 +136,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,37 +172,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570148827309</updated>
-      <workItem from="1570148828542" duration="26499000" />
+      <workItem from="1570148828542" duration="44956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26499000" />
+    <option name="totallyTimeSpent" value="44956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32959184" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,9 +212,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/hamming.c</url>
-          <line>128</line>
-          <option name="timeStamp" value="41" />
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>373</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -196,47 +230,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>hamming[3][0]</expression-string>
+        <expression-string>(int(*)[2])result[3]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hamming[6][0]</expression-string>
+        <expression-string>(int(*)[2])result[2]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hamming[5][0]</expression-string>
+        <expression-string>(int(*)[2])result[1]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hamming[4][0]</expression-string>
+        <expression-string>(int(*)[2])result[0]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hamming[2][0]</expression-string>
+        <expression-string>result[0]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hamming[0][0]</expression-string>
+        <expression-string>(int(*)[2])B[4]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hamming[1][0]</expression-string>
+        <expression-string>(int(*)[2])B[3]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>hamming[][0]</expression-string>
+        <expression-string>(int(*)[2])B[2]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>result[6][0]</expression-string>
+        <expression-string>(int(*)[2])B[1]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -341,23 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matrix.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#106#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -375,24 +392,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/main.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#53#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matrix.c">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#106#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hamming.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="121" column="29" lean-forward="true" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+        <state relative-caret-position="324">
+          <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>

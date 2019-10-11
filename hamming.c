@@ -121,7 +121,7 @@ int* getSyndrome(int* A) {
    parity_matrix[1] = &Hb[0];
    parity_matrix[2] = &Hc[0];
 
-   for (int i = 0; i < G_ROWS; i++) {
+   for (int i = 0; i < H_ROWS; i++) {
       int* temp = calloc(sizeof(int), G_COLS);
       result[i] = temp;
    }
